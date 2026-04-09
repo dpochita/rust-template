@@ -4,5 +4,5 @@ license = {prompt = "Which license to use?", choices = ["MIT", "Apache-2.0", "BS
 
 [template]
 include = ["Cargo.toml"]
-exclude = ["cliff.toml"]
+exclude = ["cliff.toml", ".github/workflows/build.yml"]
 ignore = ["target", ".DS_Store"]
