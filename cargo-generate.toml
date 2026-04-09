@@ -1,0 +1,8 @@
+[placeholders]
+description = { prompt = "Enter project description", default = "This is a xxx", type = "string"}
+license = {prompt = "Which license to use?", choices = ["MIT", "Apache-2.0", "BSD-2-Clause", "BSD-3-Clause"], default = "MIT", type = "string"}
+
+[template]
+include = ["Cargo.toml"]
+exclude = ["cliff.toml"]
+ignore = ["target", ".DS_Store"]
