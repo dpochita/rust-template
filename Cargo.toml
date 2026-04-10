@@ -5,7 +5,7 @@ authors = ["{{authors}}"]
 edition = "2024"
 license = "{{license}}"
 description = """
-{{description}}
+This is a rust project
 """
 
 [dependencies]
